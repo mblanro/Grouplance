@@ -1,0 +1,39 @@
+    1  cat hoy.txt
+    2  sudo groupadd oficina
+    3  sudo groupadd oficina1
+    4  sudo groupadd oficina2
+    5  man useradd
+    6  cat hoy.txt|more
+    7  history>>hoy.txt
+    8  cat hoy.txt
+    9  sudo useradd -c "Pedro Picapiedra" -G oficina1 -d /home/cursopo/pedro pedro
+   10  sudo useradd -c "Pablo Marmol" -G oficina1 -d /home/cursopo/pablo pablo
+   11  sudo useradd -c "Nerea Perez" -G oficina2 -d /home/cursopo/nerea nerea
+   12  sudo useradd -c "Alba Martin" -G oficina2 -d /home/cursopo/alba alba
+   13  sudo passwd pedro pedro
+   14  sudo passwd pedro -d
+   15  sudo passwd pedro -S
+   16  sudo passwd pablo -S
+   17  sudo passwd pedro 
+   18  sudo passwd pablo
+   19  sudo passwd alba
+   20  sudo passwd nerea
+   21  history>>hoy.txt
+   22  cat history.txt
+   23  cat hoy.txt
+   24  logout
+   25  logoff
+   26  shutdown
+   27  shutdown -c
+   28  sudo passwd pedro -S
+   29  sudo passwd pedro
+   30  sudo shutdown
+   31  sudo shutdown -c
+   32  sudo logoff
+   33  sudo logout
+   34  exit
+   35  ls -la
+   36  mkdir ejercicioslinux
+   37  cd ejercicioslinux
+   38  mkdir documentos
+   39  history>carta1.txt

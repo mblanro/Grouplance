@@ -1,0 +1,163 @@
+    1  cat hoy.txt
+    2  sudo groupadd oficina
+    3  sudo groupadd oficina1
+    4  sudo groupadd oficina2
+    5  man useradd
+    6  cat hoy.txt|more
+    7  history>>hoy.txt
+    8  cat hoy.txt
+    9  sudo useradd -c "Pedro Picapiedra" -G oficina1 -d /home/cursopo/pedro pedro
+   10  sudo useradd -c "Pablo Marmol" -G oficina1 -d /home/cursopo/pablo pablo
+   11  sudo useradd -c "Nerea Perez" -G oficina2 -d /home/cursopo/nerea nerea
+   12  sudo useradd -c "Alba Martin" -G oficina2 -d /home/cursopo/alba alba
+   13  sudo passwd pedro pedro
+   14  sudo passwd pedro -d
+   15  sudo passwd pedro -S
+   16  sudo passwd pablo -S
+   17  sudo passwd pedro 
+   18  sudo passwd pablo
+   19  sudo passwd alba
+   20  sudo passwd nerea
+   21  history>>hoy.txt
+   22  cat history.txt
+   23  cat hoy.txt
+   24  logout
+   25  logoff
+   26  shutdown
+   27  shutdown -c
+   28  sudo passwd pedro -S
+   29  sudo passwd pedro
+   30  sudo shutdown
+   31  sudo shutdown -c
+   32  sudo logoff
+   33  sudo logout
+   34  exit
+   35  ls -la
+   36  mkdir ejercicioslinux
+   37  cd ejercicioslinux
+   38  mkdir documentos
+   39  history>carta1.txt
+    1  cat hoy.txt
+    2  sudo groupadd oficina
+    3  sudo groupadd oficina1
+    4  sudo groupadd oficina2
+    5  man useradd
+    6  cat hoy.txt|more
+    7  history>>hoy.txt
+    8  cat hoy.txt
+    9  sudo useradd -c "Pedro Picapiedra" -G oficina1 -d /home/cursopo/pedro pedro
+   10  sudo useradd -c "Pablo Marmol" -G oficina1 -d /home/cursopo/pablo pablo
+   11  sudo useradd -c "Nerea Perez" -G oficina2 -d /home/cursopo/nerea nerea
+   12  sudo useradd -c "Alba Martin" -G oficina2 -d /home/cursopo/alba alba
+   13  sudo passwd pedro pedro
+   14  sudo passwd pedro -d
+   15  sudo passwd pedro -S
+   16  sudo passwd pablo -S
+   17  sudo passwd pedro 
+   18  sudo passwd pablo
+   19  sudo passwd alba
+   20  sudo passwd nerea
+   21  history>>hoy.txt
+   22  cat history.txt
+   23  cat hoy.txt
+   24  logout
+   25  logoff
+   26  shutdown
+   27  shutdown -c
+   28  sudo passwd pedro -S
+   29  sudo passwd pedro
+   30  sudo shutdown
+   31  sudo shutdown -c
+   32  sudo logoff
+   33  sudo logout
+   34  exit
+   35  mkdir ejercicioslinux
+   36  cd ejercicioslinux
+   37  mkdir documentos
+   38  history>carta1.txt
+   39  touch carta2.txt
+   40  cd ..
+   41  ls -las
+   42  ls Documentos
+   43  ls ejercicioslinux
+   44  cp ejercicioslinux/carta*.* documentos
+   45  cp ejercicioslinux/carta*.* documentos/.
+   46  tree
+   47  rm ejercicioslinux/documentos
+   48  sudo cp ejercicioslinux/carta*.* documentos/.
+   49  cd ejercicioslinux
+   50  rmdir documentos
+   51  mkdir documentos
+   52  cp carta*.* documentos
+   53  tree
+   54  pwd
+   55  ls
+   56  ls -la
+   57  cat carta1.txt>ej1.txt
+   58  man rm
+   59  rm -f ej1.txt
+   60  cat carta1.txt>ej1.txt
+   61  rm -l ej1.txt
+   62  rm -i ej1.txt
+   63  cat carta1.txt>ej2.txt
+   64  ls -la
+   65  chmod 777 ej2.txt 
+   66  ls -la
+   67  chmod u-w g-w o-w ej2.txt
+   68  chmod -u-w -g-w -o-w ej2.txt
+   69  ls -la
+   70  chmod 777 ej2.txt
+   71  ls -la
+   72  chmod 555 ej2.txt
+   73  ls -la
+   74  chmod u-w,g-w,o-w ej2.txt
+   75  ls -la
+   76  ls -las
+   77  cd ..
+   78  chmod u+W /carta2.txt
+   79  sudo chmod u+W /carta2.txt
+   80  chmod 755 /ej2.txt
+   81  tree
+   82  chmod 755 /ejercicioslinux/ej2.txt
+   83  sudovchmod 755 /ejercicioslinux/ej2.txt
+   84  sudo chmod 755 /ejercicioslinux/ej2.txt
+   85  sudo chmod 755 ejercicioslinux/ej2.txt
+   86  cd ejercicioslinux
+   87  history>ej3.txt
+   88  ls
+   89  pwd
+   90  cd ..
+   91  rm -i ejercicioslinux/ej3.txt
+   92  ls ejercicioslinux/ej3.txt
+   93  ls ejercicioslinux
+   94  pwd
+   95  cd ejercicioslinux
+   96  ls
+   97  mv carta1.txt documento.txt
+   98  ls -la
+   99  chmod 655 documento.txt
+  100  ls -la
+  101  mv carta2.txt carta.txt
+  102  ls -la
+  103  chmod o+r carta.txt
+  104  cd /
+  105  ls -l
+  106  ls -la /usr/bin
+  107  ls -la /usr
+  108  ls
+  109  ls -la /etc
+  110  ls -la /etc|more
+  111  history>20190603.txt
+  112  sudo history>20190603.txt
+  113  sudo history>>20190603.txt
+  114  exit
+  115  tree
+  116  cd ejercicioslinux
+  117  mkdir projectogit
+  118  cp documentos/*.* projectogit
+  119  tree
+  120  cp ej2.txt projectogit
+  121  tree
+  122  cd projectogit
+  123  git init
+  124  history>>ej2.txt
